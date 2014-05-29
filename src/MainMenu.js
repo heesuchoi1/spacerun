@@ -19,7 +19,7 @@ BasicGame.MainMenu.prototype = {
 		this.music.play();
 
 		this.add.sprite(0, 0, 'mainBackground');
-		this.add.sprite(150, 200, 'logo');
+		this.add.sprite(50, 200, 'logo');
 
 		this.playButton = this.add.button(1270, 900, 'playButton', this.startLevel, this, 'buttonOver', 'buttonOut', 'buttonOver');
 		this.settingsButton = this.add.button(1785, 47, 'settingsButton', this.startSettings, this, 'buttonOver', 'buttonOut', 'buttonOver');
@@ -41,5 +41,5 @@ BasicGame.MainMenu.prototype = {
 		this.music.stop();
 		this.state.start('Settings');
 	}
-
+	
 };

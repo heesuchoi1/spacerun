@@ -27,9 +27,13 @@ BasicGame.Preloader.prototype = {
 		this.load.image('mainBackground', 'images/main_background.png');
 		this.load.image('logo', 'images/logo.png');
 		this.load.image('stageBackground', 'images/stage_background.png');
+		this.load.image('settingBackgroun', 'images/setting_Backgroun.png');
 
 		this.load.image('playButton', 'images/play_button.png');
 		this.load.image('settingsButton', 'images/settings_button.png');
+
+		this.load.image('setting1Button', 'images/setting1.png');
+		this.load.image('setting1Button', 'images/setting2.png');
 
 		this.load.image('stage1Button', 'images/planet1.png');
 		this.load.image('stage2Button', 'images/planet2.png');
