@@ -35,6 +35,7 @@ BasicGame.Preloader.prototype = {
 		this.load.image('setting2Button', 'images/setting2.png');
 		this.load.image('MainMenuButton', 'images/MainMenu.png');
 
+		this.load.image('title', 'images/title.png');
 		this.load.image('stage1Button', 'images/planet1.png');
 		this.load.image('stage2Button', 'images/planet2.png');
 		this.load.image('stage3Button', 'images/planet3.png');
