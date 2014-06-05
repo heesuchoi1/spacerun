@@ -1,5 +1,5 @@
 
-BasicGame.Level = function (game) {
+BasicGame.Settings = function (game) {
 
 	this.music = null;
 	this.setting1Button = null;
@@ -8,7 +8,7 @@ BasicGame.Level = function (game) {
 
 };
 
-BasicGame.Level.prototype = {
+BasicGame.Settings.prototype = {
 
 	create: function () {
 
