@@ -41,7 +41,7 @@ BasicGame.Settings.prototype = {
 		//	And start the actual game
 		this.state.start('Game');
 
-	}
+	},
 
 	startMainMenu: function (pointer) {
 		this.music.stop();
