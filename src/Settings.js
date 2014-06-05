@@ -1,7 +1,7 @@
 
 BasicGame.Settings = function (game) {
 
-	this.music = null;
+	//this.music = null;
 	this.setting1Button = null;
 	this.setting1Button = null;
 	this.MainMenuButton = null;
