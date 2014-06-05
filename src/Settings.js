@@ -51,7 +51,7 @@ BasicGame.Settings.prototype = {
 	},
 
 		startLevel: function (pointer) {
-		this.music.stop();
+		//this.music.stop();
 		this.state.start('Level');
 	},
 
