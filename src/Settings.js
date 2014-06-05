@@ -5,6 +5,7 @@ BasicGame.Settings = function (game) {
 	this.setting1Button = null;
 	this.setting1Button = null;
 	this.MainMenuButton = null;
+	this.playButton = null;
 
 
 };
@@ -25,6 +26,7 @@ BasicGame.Settings.prototype = {
 		this.setting1Button = this.add.button(200, 450, 'setting1Button', this.settings, this, 'buttonOver', 'buttonOut', 'buttonOver');
 		this.setting2Button = this.add.button(200, 700, 'setting2Button', this.settings, this, 'buttonOver', 'buttonOut', 'buttonOver');
 		this.MainMenuButton = this.add.button(1785, 47, 'MainMenuButton', this.startMainMenu, this, 'buttonOver', 'buttonOut', 'buttonOver');
+		this.playButton = this.add.button(1270, 900, 'playButton', this.startLevel, this, 'buttonOver', 'buttonOut', 'buttonOver');
 	},
 
 	update: function () {
@@ -46,6 +48,11 @@ BasicGame.Settings.prototype = {
 	startMainMenu: function (pointer) {
 		//this.music.stop();
 		this.state.start('MainMenu');
-	}
+	},
+
+		startLevel: function (pointer) {
+		this.music.stop();
+		this.state.start('Level');
+	},
 
 };
