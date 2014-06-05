@@ -18,10 +18,10 @@ BasicGame.Level.prototype = {
 		//	Here all we're doing is playing some music and adding a picture and button
 		//	Naturally I expect you to do something significantly better :)
 
-		this.music = this.add.audio('levelBackground');
+		this.music = this.add.audio('stageMusic');
 		this.music.play();
 
-		this.add.sprite(0, 0, 'Background');
+		this.add.sprite(0, 0, 'levelBackground');
 
 		this.stage1Button = this.add.button(260, 635, 'stage1Button', this.startGame, this, 'buttonOver', 'buttonOut', 'buttonOver');
 		this.stage2Button = this.add.button(825, 516, 'stage2Button', this.startGame, this, 'buttonOver', 'buttonOut', 'buttonOver');
