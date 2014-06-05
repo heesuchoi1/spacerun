@@ -42,4 +42,9 @@ BasicGame.Settings.prototype = {
 
 	}
 
+	startMainMenu: function (pointer) {
+		this.music.stop();
+		this.state.start('MainMenu');
+	}
+
 };
