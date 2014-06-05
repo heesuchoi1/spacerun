@@ -21,9 +21,9 @@ BasicGame.Settings.prototype = {
 
 		this.add.sprite(0, 0, 'settingBackground');
 
-		this.setting1Button = this.add.button(250, 400, 'setting1Button', this.settings, this, 'buttonOver', 'buttonOut', 'buttonOver');
-		this.setting2Button = this.add.button(250, 600, 'setting2Button', this.settings, this, 'buttonOver', 'buttonOut', 'buttonOver');
-		this.MainMenuButton = this.add.button(1785, 47, 'MainMenu_Button', this.mainmenu, this, 'buttonOver', 'buttonOut', 'buttonOver');
+		this.setting1Button = this.add.button(200, 500, 'setting1Button', this.settings, this, 'buttonOver', 'buttonOut', 'buttonOver');
+		this.setting2Button = this.add.button(200, 750, 'setting2Button', this.settings, this, 'buttonOver', 'buttonOut', 'buttonOver');
+		this.MainMenuButton = this.add.button(1785, 47, 'MainMenuButton', this.mainmenu, this, 'buttonOver', 'buttonOut', 'buttonOver');
 	},
 
 	update: function () {
