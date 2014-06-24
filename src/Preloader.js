@@ -35,15 +35,15 @@ BasicGame.Preloader.prototype = {
 		this.load.image('MainMenuButton', 'images/MainMenu.png');
 
 		this.load.image('levelBackground', 'images/level_background.png');
-		this.load.image('levelBackground', 'images/stage_background.png');
+		this.load.image('stageBackground', 'images/stage_background.png');
 		this.load.image('stage1Button', 'images/planet1.png');
 		this.load.image('stage2Button', 'images/planet2.png');
 		this.load.image('stage3Button', 'images/planet3.png');
 		this.load.image('stage4Button', 'images/planet4.png');
 		this.load.image('stage5Button', 'images/planet5.png');
 
-		this.load.audio('titleMusic', ['audio/main_menu.mp3']);
-		this.load.audio('stageMusic', ['audio/stage.mp3']);
+		this.load.audio('titleMusic', ['audio/main_menu.wav']);
+		this.load.audio('stageMusic', ['audio/stage.wav']);
 
 		//	+ lots of other required assets here
 
