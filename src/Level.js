@@ -21,7 +21,7 @@ BasicGame.Level.prototype = {
 		this.music = this.add.audio('stageMusic');
 		this.music.play();
 
-		this.add.sprite(0, 0, 'mainBackground');
+		this.add.sprite(0, 0, 'stage_Background');
 
 		this.stage1Button = this.add.button(260, 635, 'stage1Button', this.startGame, this, 'buttonOver', 'buttonOut', 'buttonOver');
 		this.stage2Button = this.add.button(825, 516, 'stage2Button', this.startGame, this, 'buttonOver', 'buttonOut', 'buttonOver');
